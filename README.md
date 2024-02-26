@@ -1,4 +1,4 @@
-# DSGM
+# DSGM 2024
 
 Data Science for Global Manager
 
