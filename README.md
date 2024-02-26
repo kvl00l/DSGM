@@ -1,4 +1,4 @@
-# Kevin Amadeus Wijaya G12460744
+# Kevin Amadeus Wijaya
 
 Data Analyst
 
