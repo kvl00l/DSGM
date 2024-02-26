@@ -1,6 +1,6 @@
 # Kevin Amadeus Wijaya 黃獻善
 
-Data Analyst
+Future Data Analyst
 
 # Introduction
 An Graduate Student at Tunghai University undergoing a Global Master of Business Administration(Global MBA) program. I'm a motivated and detail-oriented student interested in Data Analyst.
