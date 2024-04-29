@@ -19,7 +19,7 @@ df.tail()
 
 # Visualize
 df['smoker'].hist()
-#plt.show()
+plt.show()
 
 # Count rows of same value
 print(df['smoker'].value_counts())
