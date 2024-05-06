@@ -32,16 +32,3 @@ df3.shape
 # Creating new columns based on other columns
 df2['Glucose_Insulin_Ratio'] = df2['Glucose'] / df2['Insulin']
 df2.head()
-
-# Count by value
-df['Outcome'].value_counts()
-df['Outcome'].value_counts(sort = False)
-
-# By group
-df.groupby('Outcome').mean()
-
-# By group
-df.groupby(['Pregnancies', 'Outcome']).mean()
-df.groupby(['Pregnancies', 'Outcome']).value_counts()
-df.groupby(['Pregnancies', 'Outcome']).value_counts(normalize = True)
-
