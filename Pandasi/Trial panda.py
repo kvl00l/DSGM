@@ -4,11 +4,11 @@
 #
 
 # Diabetes
-import pandas as pd 
+import pandas as pd
 df = pd.read_csv('D:\DATA Science\DSGM\Pandasi\diabetes.csv')
 
 # Inspect structure
-df.shape 
+df.shape
 df.info()
 
 # Add missing values
@@ -16,7 +16,7 @@ df2 = df.copy()
 df2.loc[2:5,'Pregnancies'] = None
 
 # Print df2
-print(df2.head(10))
+df2.head(10)
 
 # Add missing values
 df2.isnull().sum()
@@ -45,3 +45,14 @@ df.groupby(['Pregnancies', 'Outcome']).mean()
 df.groupby(['Pregnancies', 'Outcome']).value_counts()
 df.groupby(['Pregnancies', 'Outcome']).value_counts(normalize = True)
 
+# Improt plt 
+import matplotlib.pyplot as plt
+
+# Visual BMI
+df[['BMI', 'Glucose']].plot.line()
+plt.title('Kevin')
+plt.show()
+
+
+df[['BMI', 'Glucose']].plot.line(figsize=(20, 10), color={"BMI": "red", "Glucose": "blue"})
+plt.show()

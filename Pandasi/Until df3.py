@@ -4,7 +4,8 @@
 #
 
 # Diabetes
-import pandas as pd 
+import pandas as pd
+import matplotlib as plt
 df = pd.read_csv('D:\DATA Science\DSGM\Pandasi\diabetes.csv')
 
 # Inspect structure
