@@ -30,7 +30,7 @@ df3 = df3.dropna()
 df3.shape
 
 # Creating new columns based on other columns
-df2['Glucose_Insulin_Ratio'] = df2['Glucose']/df2['Insulin']
+df2['Glucose_Insulin_Ratio'] = df2['Glucose'] / df2['Insulin']
 df2.head()
 
 # Count by value
